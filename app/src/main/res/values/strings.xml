@@ -1,0 +1,182 @@
+<resources>
+    <string name="app_name">MindBloom</string>
+    <string name="welcome_tagline">Your Personal Mental Wellness Companion</string>
+    <string name="welcome_title">Welcome to MindBloom</string>
+    <string name="welcome_subtitle">A gentle space for daily check-ins, mindful reflection, and personal peace.</string>
+    <string name="btn_get_started">Get Started</string>
+
+    <string name="dashboard_greeting">Hello, Welcome Back</string>
+    <string name="dashboard_quote">\"Take a deep breath. Every day is a gentle opportunity to bloom.\"</string>
+    <string name="section_explore">Explore Wellness</string>
+
+    <string name="module_mood_title">Mood Tracker</string>
+    <string name="module_mood_desc">Check in with your feelings and view your mood history.</string>
+
+    <string name="module_journal_title">Wellness Journal</string>
+    <string name="module_journal_desc">Reflect, pen down thoughts, and preserve your memories.</string>
+
+    <string name="module_relax_title">Relaxation &amp; Self-Care</string>
+    <string name="module_relax_desc">Simple breathing exercises and calming mindfulness practices.</string>
+
+    <string name="module_goals_title">Goals &amp; Progress</string>
+    <string name="module_goals_desc">Set gentle personal goals and celebrate daily growth.</string>
+
+    <string name="msg_mood_placeholder">Mood Tracker</string>
+    <string name="msg_journal_placeholder">Wellness Journal will be available in Phase 3</string>
+    <string name="msg_relax_placeholder">Relaxation &amp; Self-Care will be available in Phase 4</string>
+    <string name="msg_goals_placeholder">Goals &amp; Progress will be available in Phase 5</string>
+
+    <!-- Mood Tracker Strings -->
+    <string name="mood_tracker_title">Mood Tracker</string>
+    <string name="mood_history_subtitle">Reflect on your emotional journey</string>
+    <string name="btn_new_checkin">+ New Check-in</string>
+    <string name="empty_mood_history_title">No Mood Check-ins Yet</string>
+    <string name="empty_mood_history_desc">Take a mindful moment to record how you are feeling today.</string>
+
+    <string name="mood_checkin_title">Mood Check-in</string>
+    <string name="mood_checkin_edit_title">Edit Mood Check-in</string>
+    <string name="mood_checkin_subtitle">How are you feeling right now?</string>
+    <string name="label_select_mood">1. Select your mood *</string>
+    <string name="label_select_intensity">2. Select intensity (1 = Mild, 5 = Intense)</string>
+    <string name="label_reflection_note">3. Optional reflection note</string>
+    <string name="hint_reflection_note">Write a few words about what is on your mind...</string>
+
+    <string name="mood_happy">Happy</string>
+    <string name="mood_calm">Calm</string>
+    <string name="mood_okay">Okay</string>
+    <string name="mood_sad">Sad</string>
+    <string name="mood_stressed">Stressed</string>
+
+    <string name="btn_save_mood">Save Check-in</string>
+    <string name="btn_update_mood">Update Check-in</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+
+    <string name="err_no_mood_selected">Please select a mood before saving.</string>
+    <string name="dialog_delete_title">Delete Mood Entry</string>
+    <string name="dialog_delete_message">Are you sure you want to delete this mood check-in? This action cannot be undone.</string>
+    <string name="msg_entry_saved">Mood check-in saved successfully.</string>
+    <string name="msg_entry_updated">Mood check-in updated successfully.</string>
+    <string name="msg_entry_deleted">Mood check-in deleted.</string>
+    <string name="err_firebase_permission">Firebase access denied: Database rules are currently locked ({.read: false, .write: false}).</string>
+
+    <!-- Wellness Journal Strings -->
+    <string name="journal_title">Wellness Journal</string>
+    <string name="journal_history_subtitle">Reflect, pen down thoughts, and preserve your memories</string>
+    <string name="btn_new_journal">+ New Reflection</string>
+    <string name="empty_journal_history_title">No Reflections Yet</string>
+    <string name="empty_journal_history_desc">Capture your thoughts, celebrate small wins, or write about your day.</string>
+
+    <string name="journal_write_title">Wellness Journal</string>
+    <string name="journal_write_edit_title">Edit Reflection</string>
+    <string name="journal_write_subtitle">Write mindfully and reflect on your day</string>
+    <string name="label_journal_title">1. Title (Optional)</string>
+    <string name="hint_journal_title">Give your reflection a title...</string>
+    <string name="label_journal_prompt">2. Choose a reflection prompt</string>
+    <string name="label_journal_content">3. Reflection *</string>
+    <string name="hint_journal_content">Write your thoughts freely...</string>
+    <string name="btn_save_journal">Save Reflection</string>
+    <string name="btn_update_journal">Update Reflection</string>
+    <string name="saving_journal">Saving reflection...</string>
+
+    <string name="prompt_good_thing">What was one good thing about today?</string>
+    <string name="prompt_challenged">What challenged me today?</string>
+    <string name="prompt_grateful">What am I grateful for?</string>
+    <string name="prompt_improve">What would I like to improve tomorrow?</string>
+    <string name="prompt_free">Free reflection</string>
+
+    <string name="err_empty_journal_content">Reflection content cannot be blank. Please write your thoughts.</string>
+    <string name="dialog_delete_journal_title">Delete Reflection</string>
+    <string name="dialog_delete_journal_message">Are you sure you want to delete this reflection? This action cannot be undone.</string>
+    <string name="msg_journal_saved">Reflection saved successfully.</string>
+    <string name="msg_journal_updated">Reflection updated successfully.</string>
+    <string name="msg_journal_deleted">Reflection deleted.</string>
+    <string name="untitled_reflection">Untitled Reflection</string>
+    <string name="btn_close">Close</string>
+
+    <!-- Phase 4: Relaxation & Self-Care Strings -->
+    <string name="relaxation_title">Relaxation &amp; Self-Care</string>
+    <string name="relaxation_subtitle">Calm your mind and nurture your daily well-being</string>
+    <string name="section_self_care">Daily Self-Care</string>
+    <string name="self_care_subtitle">Gentle daily habits for body and peace of mind</string>
+    <string name="self_care_water">Drink a glass of water</string>
+    <string name="self_care_movement">Take a 5-minute movement break</string>
+    <string name="self_care_screen">Spend 10 minutes away from screens</string>
+    <string name="self_care_positive">Write down one positive moment</string>
+    <string name="self_care_sleep">Prepare for restful sleep</string>
+    <string name="self_care_progress_format">%1$d of %2$d completed</string>
+    <string name="self_care_all_done">🌟 Wonderful! You completed all self-care habits today.</string>
+    <string name="self_care_reset_note">Checklist automatically starts fresh every morning.</string>
+    <string name="section_exercises">Relaxation Practices</string>
+    <string name="exercises_subtitle">Tap any practice to view simple step-by-step guidance</string>
+    <string name="btn_view_guide">View Guide</string>
+    <string name="btn_done">I\'m Done</string>
+
+    <!-- Phase 5: Goals & Progress Strings -->
+    <string name="goals_title">Goals &amp; Progress</string>
+    <string name="goals_subtitle">Set gentle personal goals and celebrate daily growth</string>
+    <string name="btn_new_goal">+ New Goal</string>
+    <string name="empty_goals_title">No Goals Set Yet</string>
+    <string name="empty_goals_desc">Define gentle personal milestones to guide your wellness journey.</string>
+
+    <string name="goal_form_create_title">New Goal</string>
+    <string name="goal_form_edit_title">Edit Goal</string>
+    <string name="goal_form_subtitle">Define a meaningful personal milestone</string>
+
+    <string name="label_goal_title">1. Goal Title *</string>
+    <string name="hint_goal_title">e.g., Daily 15-minute mindfulness</string>
+    <string name="label_goal_desc">2. Description (Optional)</string>
+    <string name="hint_goal_desc">Add any details, steps, or motivations...</string>
+    <string name="label_goal_target_date">3. Target Date *</string>
+    <string name="btn_select_date">Choose Target Date</string>
+    <string name="label_goal_progress">4. Current Progress</string>
+    <string name="progress_format">%1$d%%</string>
+
+    <string name="btn_save_goal">Save Goal</string>
+    <string name="btn_update_goal">Update Goal</string>
+    <string name="btn_quick_progress">Update</string>
+    <string name="goal_status_completed">Completed 🎉</string>
+    <string name="goal_status_in_progress">In Progress</string>
+
+    <string name="err_empty_goal_title">Goal title cannot be blank.</string>
+    <string name="err_no_target_date">Please select a target date for your goal.</string>
+    <string name="err_invalid_progress">Progress must be between 0 and 100.</string>
+
+    <string name="dialog_delete_goal_title">Delete Goal</string>
+    <string name="dialog_delete_goal_message">Are you sure you want to delete this goal? This action cannot be undone.</string>
+    <string name="dialog_update_progress_title">Update Goal Progress</string>
+
+    <string name="msg_goal_saved">Goal saved successfully.</string>
+    <string name="msg_goal_updated">Goal updated successfully.</string>
+    <string name="msg_goal_deleted">Goal deleted.</string>
+    <string name="target_date_format">Target: %1$s</string>
+    <string name="created_at_format">Created: %1$s</string>
+    <string name="updated_at_format">Last updated: %1$s</string>
+    <string name="btn_details">Details</string>
+
+    <!-- Authentication Strings -->
+    <string name="auth_title_login">Welcome Back</string>
+    <string name="auth_subtitle_login">Sign in to access your personal wellness companion</string>
+    <string name="auth_title_signup">Create Account</string>
+    <string name="auth_subtitle_signup">Begin your mindful reflection journey with MindBloom</string>
+    <string name="label_email">Email Address *</string>
+    <string name="hint_email">you@example.com</string>
+    <string name="label_password">Password *</string>
+    <string name="hint_password">Enter password (min 6 chars)</string>
+    <string name="label_confirm_password">Confirm Password *</string>
+    <string name="hint_confirm_password">Re-enter password</string>
+    <string name="btn_login">Sign In</string>
+    <string name="btn_signup">Create Account</string>
+    <string name="btn_go_to_signup">Don\'t have an account? Sign up</string>
+    <string name="btn_go_to_login">Already have an account? Sign in</string>
+    <string name="btn_logout">Sign Out</string>
+
+    <string name="err_empty_email">Please enter your email address.</string>
+    <string name="err_invalid_email">Please enter a valid email address.</string>
+    <string name="err_empty_password">Please enter your password.</string>
+    <string name="err_password_too_short">Password must be at least 6 characters.</string>
+    <string name="err_passwords_do_not_match">Passwords do not match.</string>
+    <string name="msg_logout_success">Signed out successfully.</string>
+    <string name="msg_require_login">Please sign in to access your personal data.</string>
+</resources>

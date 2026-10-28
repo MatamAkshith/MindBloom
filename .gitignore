@@ -1,0 +1,31 @@
+# Gradle
+.gradle/
+
+# Build outputs
+/build/
+/app/build/
+**/build/
+
+# Local Android SDK configuration
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Native build outputs
+.externalNativeBuild/
+.cxx/
+
+# Signing keys and secrets
+*.jks
+*.keystore
+secrets.properties
+.env
+.env.*
+
+# Firebase client configuration (kept locally)
+app/google-services.json

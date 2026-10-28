@@ -1,0 +1,31 @@
+{
+  "rules": {
+    "MoodEntries": {
+      "$uid": {
+        ".read": "auth != null && auth.uid == $uid",
+        ".write": "auth != null && auth.uid == $uid",
+        "$entryId": {
+          ".validate": "newData.hasChildren(['mood', 'intensity', 'timestamp']) && newData.child('mood').isString() && newData.child('intensity').isNumber() && newData.child('timestamp').isNumber() && (!newData.hasChild('note') || newData.child('note').isString()) && (!newData.hasChild('id') || newData.child('id').isString())"
+        }
+      }
+    },
+    "JournalEntries": {
+      "$uid": {
+        ".read": "auth != null && auth.uid == $uid",
+        ".write": "auth != null && auth.uid == $uid",
+        "$entryId": {
+          ".validate": "newData.hasChildren(['content', 'prompt', 'timestamp']) && newData.child('content').isString() && newData.child('content').val().length > 0 && newData.child('prompt').isString() && newData.child('timestamp').isNumber() && (!newData.hasChild('title') || newData.child('title').isString()) && (!newData.hasChild('id') || newData.child('id').isString())"
+        }
+      }
+    },
+    "Goals": {
+      "$uid": {
+        ".read": "auth != null && auth.uid == $uid",
+        ".write": "auth != null && auth.uid == $uid",
+        "$goalId": {
+          ".validate": "newData.hasChildren(['title', 'progress', 'targetDate', 'createdAt', 'updatedAt']) && newData.child('title').isString() && newData.child('title').val().length > 0 && newData.child('progress').isNumber() && newData.child('progress').val() >= 0 && newData.child('progress').val() <= 100 && newData.child('targetDate').isNumber() && newData.child('createdAt').isNumber() && newData.child('updatedAt').isNumber() && (!newData.hasChild('description') || newData.child('description').isString()) && (!newData.hasChild('id') || newData.child('id').isString())"
+        }
+      }
+    }
+  }
+}
